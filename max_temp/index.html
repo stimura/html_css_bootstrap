@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Max Temperature</title>
+  <!-- bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="website-background">
+    <nav class="navbar navbar-inverse bg-dark">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="#">
+                Timura
+            </a>
+
+          </div>
+    
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                        <li class="active"><a href="https://stimura.github.io/html_css_bootstrap/homepage/">Home <span class="sr-only">(current)</span></a></li>
+                        <li class="active"><a href="https://stimura.github.io/html_css_bootstrap/data/">Data <span class="sr-only">(current)</span></a></li>
+                        <li class="active"><a href="https://stimura.github.io/html_css_bootstrap/plots/">Comparison <span class="sr-only">(current)</span></a></li>
+                        <li class="dropdown">
+                          <button class="dropbtn" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></button>
+                          <div class="dropdown-content">
+                              <a href="https://stimura.github.io/html_css_bootstrap/max_temp/">Max Temperature</a>
+                              <a href="https://stimura.github.io/html_css_bootstrap/humidity/">Humidity</a>
+                              <a href="https://stimura.github.io/html_css_bootstrap/cloudiness/">Cloudiness</a>
+                              <a href="https://stimura.github.io/html_css_bootstrap/wind_speeds/">Wind Speeds</a>
+                          </div>
+                        </li>
+                      </ul>
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="maxbox">
+          <h3>Latitude vs. Max Temperature:</h3>
+            <div class="wrapper"> <img src="City_Latitude_vs_Max_Temperature.png" alt="Latitude vs Temperature" height="300" width="300"/></div>
+            <div class="wrapper"> <img src="Latitude_vs_Max_Temperature_Regression.png" alt="Latitude vs Temperature Regression" height="300" width="300"/></div>
+            <p> My analysis into the relationship between a particular city's latitude and the maximum temperature the city reached
+            during the year, rendered a relationship that is not surprising.
+            The temperature of the city is negatively correlated with the city’s latitude. One can see the negative relationship quite clearly in the chart on the
+            left with the line of best fit.
+            This makes complete sense, the closer the city is to the poles – North Pole or South Pole – the colder the temperature will be on average.
+            Likewise, if the city is closer to the equator, the city would experience higher temperatures on average.
+            </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+<!--Footer-->
+<footer class="page-footer font-small blue-grey lighten-5 pt-0">
+
+    <!--Footer Links-->
+    <div class="container">
+            <div class="row">
+    
+                <!--First column-->
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4 dark-grey-text">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Sam Timura</strong>
+                    </h6>
+                    <p>Student at George Washington University in Data Analytics (Summer 2018 Graduating Class)</p>
+                </div>
+                <!--/.First column-->
+    
+                <!--Third column-->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 dark-grey-text">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Credits</strong>
+                    </h6>
+                
+                    <p>
+                        <a href="https://mdbootstrap.com/components/bootstrap-footer/" class="dark-grey-text">MDBootstrap.com</a>
+                    </p>
+                    <p>
+                        <a href="https://getbootstrap.com/docs/3.3/components/#navbar" class="dark-grey-text">GetBootstrap.com</a>
+                    </p>
+                </div>
+                <!--/.Third column-->
+    
+                <!--Fourth column-->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 dark-grey-text">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Contact</strong>
+                    </h6>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> stimura@gmail.com</i>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> + 1 610 301 6996</p>
+                </div>
+                <!--/.Fourth column-->
+    
+            </div>
+        </div>
+    </footer>
+    <!--/.Footer-->
+
+  </body>
